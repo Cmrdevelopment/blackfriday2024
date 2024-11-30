@@ -53,9 +53,9 @@ const AccordionInfo = () => {
                 </AccordionItemHeading>
                     <AccordionItemPanel >
                     <ul className='list-none pl-4 space-y-2 ml-5'>
-                    <p>Toda la formación incluye el curso básico de bolsa, el curso pev y el curso del graficador NinjaTrader8</p>
+                    <p>Toda la formación incluye el curso básico de bolsa, el curso pev y el curso del graficador NinjaTrader8, <strong>los tres cursos son on line y no tienen soporte</strong></p>
                     <li className='list-disc'>En el CURSO BÁSICO y CURSO PEV <strong>las lecciones están encadenadas</strong>, es decir, empezarás de menos a más conocimiento pero <strong>podrás ir a la velocidad que desees</strong>.</li>
-                    <li className='list-disc'>En el <strong> CURSO de NINJATRADER</strong> podrás ver las lecciones salteadas según sea tu nivel en esa plataforma. Incluye un método para que tengas la plataforma gratuita para graficar no para operar.</li>
+                    <li className='list-disc'>En el <strong> CURSO de NINJATRADER8</strong> podrás ver las lecciones salteadas según sea tu nivel en esa plataforma. Incluye un método para que tengas la plataforma gratuita para graficar no para operar.</li>
                     <li className='list-disc'>Tendrás <strong>todos los cursos disponible 12 meses</strong> empezando desde 23 DICIEMBRE 2024 hasta el 31 Diciembre de 2025, así que podrás disfrutarlo y verlo tantas veces quieras durante más de 12 meses.</li>
                     </ul>
                     
