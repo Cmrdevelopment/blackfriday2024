@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boton_reserva {
+    width: 295px;
+    height: 52px;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: linear 0.2s;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .boton_reserva {
+      width: 200px; /* Botón más pequeño */
+      height: 45px; /* Menos altura */
+      font-size: 16px; /* Texto más pequeño */
+      margin: 20px auto; /* Centrar y ajustar márgenes */
+    }
+  }
+  
+  .boton_reserva:hover {
+    width: 295px;
+    height: 52px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 21px;
+    border-bottom: 1.5px solid #328077;
+    background-color: rgb(250, 250, 250);
+    color: #328077;
+    font-weight: bold
+    
+  }
+
+  @media (max-width: 768px) {
+    .boton_reserva:hover {
+      width: 220px; /* Ajuste menor en ancho */
+      height: 48px; /* Ajuste menor en altura */
+      font-size: 18px; /* Texto más grande pero proporcionado */
+      border-bottom: 1.5px solid #328077;
+      background-color: #f0f0f0; /* Color más suave */
+      color: #328077;
+    }
+  }
