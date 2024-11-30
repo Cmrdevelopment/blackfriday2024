@@ -49,8 +49,8 @@ const PreciosBlackFriday = () => {
 
           <div className="flex flex-col items-center md:gap-5 gap-2">
             <h5 className="text-2xl text-white font-semibold bg-cmrbolsa w-full md:p-2 text-center">¿Qué incluye?</h5>
-            <h3 className="flex text-white font-bold md:text-xl items-center md:gap-2 gap-1"><FaCheck />Curso básico de bolsa (48 lecciones)</h3>
-            <h3 className="flex text-white font-bold md:text-xl items-center md:gap-2 gap-1"><FaCheck /> Curso avanzado PEV (59 lecciones)</h3>
+            <h3 className="flex text-white font-bold md:text-xl items-center md:gap-2 gap-1"><FaCheck />Curso básico de bolsa on line (48 lecciones)</h3>
+            <h3 className="flex text-white font-bold md:text-xl items-center md:gap-2 gap-1"><FaCheck /> Curso avanzado PEV on line (59 lecciones)</h3>
             <h3 className="flex text-white font-bold md:text-xl items-center md:gap-2 gap-1"><FaCheck />12 meses disponible</h3>
 
             <button onClick={handleTallerClick} className="boton_reserva bg-cmrbolsa uppercase">
