@@ -83,7 +83,7 @@ const AccordionInfo = () => {
          {/* LOGO */}
       <div className="mb-5 bg-cover bg-center bg-no-repeat">
         <img
-          className="mt-10 mb-4 mx-auto w-1/3 sm:w-1/12"
+          className="mt-10 mb-4 mx-auto w-1/ sm:w-1/12"
           src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png"
           alt="logo Cmrbolsa"
         />
