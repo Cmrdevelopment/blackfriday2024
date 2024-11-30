@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa"
 // };
 
 const handleTallerClick = () => {
-  window.location.href = 'https://mentoriapev.com/finalizar-compra/?add-to-cart=5910';
+  window.location.href = 'https://mentoriapev.com/finalizar-compra/?add-to-cart=5957';
 };
 
 const PreciosBlackFriday = () => {
