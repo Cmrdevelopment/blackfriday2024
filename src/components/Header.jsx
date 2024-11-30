@@ -95,7 +95,7 @@ const Header = () => {
       </div>
 
 
-      {/* Resto del contenido */}
+      {/* LOGO */}
       <div className="mb-5 bg-cover bg-center bg-no-repeat">
         <img
           className="mt-3 mb-4 mx-auto w-1/3 sm:w-1/12"
@@ -105,7 +105,7 @@ const Header = () => {
       </div>
 
       {/* Sección con la imagen de fondo y overlay */}
-      <div className="relative h-screen bg-white shadow p-8 md:p-9" style={containerStyle}>
+      <div className="relative h-screen bg-white shadow p-3 md:p-9" style={containerStyle}>
         {/* Overlay para dar opacidad a la imagen de fondo */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
@@ -114,8 +114,8 @@ const Header = () => {
           <h1 className="text-white text-xl font-extrabold text-center sm:text-7xl">
             Desarrolla <span className="text-green-500">tus habilidades</span> en los mercados
           </h1>
-          <p className="text-xl font-extrabold text-center md:mt-5 sm:text-3xl">
-            <span className="text-white text-sm">{"\"Gestiona el riesgo, toma decisiones estratégicas y alcanza resultados sostenibles\""}</span>
+          <p className="text-xl font-extrabold text-center md:mt-3 sm:text-3xl">
+            <span className="text-white text-sm md:text-2xl">{"\"Gestiona el riesgo, toma decisiones estratégicas y alcanza resultados sostenibles\""}</span>
           </p>
           <PreciosBlackFriday/>
 
