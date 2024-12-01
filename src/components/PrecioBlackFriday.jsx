@@ -39,8 +39,13 @@ const PreciosBlackFriday = () => {
             </div>
 
             <h5 className="mt-1 font-semibold w-full text-center">
-            <h5 className="text-xl font-semibold w-full mx-auto text-center bg-white bg p-1">
-                Los 3 primeros SOLO 257 €</h5>
+            <h5 className="text-xl font-semibold w-full mx-auto text-center bg-white p-1 relative">
+            <span className="text-black" style={{ textDecoration: 'line-through', textDecorationColor: 'red' }}>
+            Los 3 primeros SOLO 257 €
+            </span>
+            <p className="text-sm">Vendidos TODOS a 257 €, SOLO que dan 7 cursos a 296,75 €</p>
+            </h5>
+            
             </h5>
             
 
