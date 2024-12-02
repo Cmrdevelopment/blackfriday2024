@@ -47,7 +47,7 @@ const PreciosBlackFriday = () => {
               textDecorationThickness: '2px' }}>
             Los 3 primeros SOLO 257 €
             </span>
-            <p className="text-sm">Vendidos TODOS a 257 €, SOLO quedan 7 cursos a 296,75 €</p>
+            {/* <p className="text-sm">Vendidos TODOS a 257 €, SOLO quedan 7 cursos a 296,75 €</p> */}
             </h5>
             
             </h5>
